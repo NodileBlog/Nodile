@@ -30,7 +30,7 @@
 }
 
 .content {
-  background: var(--white) url("../..//images/authorphoto.jpg") 100% / cover
+  background: var(--white) url("../../images/authorphoto.jpg") 100% / cover
     no-repeat;
   border-radius: 3rem;
   cursor: pointer;
@@ -124,19 +124,19 @@
 
 @media (max-width: 991px) {
   .content {
-    background: var(--white) url("../..//images/authorphoto.jpg") 100% / cover
+    background: var(--white) url("../../images/authorphoto.jpg") 100% / cover
       no-repeat;
   }
 
   .content:nth-of-type(2) {
-    background-image: url("../..//images/gatoNoeMobile.png");
+    background-image: url("../../images/gatoNoeMobile.png");
   }
 
   .content:nth-of-type(3) {
-    background-image: url("../..//images/gatoAleMobile.png");
+    background-image: url("../../images/gatoAleMobile.png");
   }
 
   .content:nth-of-type(4) {
-    background-image: url("../..//images/gatoAdrianMobile.png");
+    background-image: url("../../images/gatoAdrianMobile.png");
   }
 }
