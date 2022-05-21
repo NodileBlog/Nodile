@@ -8,7 +8,13 @@
   --white: #fff;
 }
 
+.showcase {
+  background: black;
+  padding: 100px;
+}
+
 .container {
+  z-index: 3;
   background: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,6 +163,12 @@
 }
 
 @media (max-width: 991px) {
+  .showcase {
+    margin-top: 9vh;
+  }
+  .showcase {
+    padding: 30px;
+  }
   .content {
     background: var(--white) url("../../images/authorphoto.jpg") 100%/cover no-repeat;
   }

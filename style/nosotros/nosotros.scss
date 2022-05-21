@@ -9,7 +9,13 @@
   --white: #fff;
 }
 
+.showcase {
+  background: rgb(0, 0, 0);
+  padding: 100px;
+}
+
 .container {
+  z-index: 3;
   background: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
@@ -122,7 +128,16 @@
   transform: translateX(0);
 }
 
+
+
 @media (max-width: 991px) {
+  .showcase {
+    margin-top: 9vh;
+  }
+
+  .showcase {
+    padding: 30px;
+  }
   .content {
     background: var(--white) url("../../images/authorphoto.jpg") 100% / cover
       no-repeat;
