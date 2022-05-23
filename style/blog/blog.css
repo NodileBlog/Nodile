@@ -333,4 +333,26 @@
   width: 100%;
   height: 100vh;
 }
+
+.stats {
+  height: 120vh;
+  width: 100%;
+  padding: 30px;
+  background-color: #000000;
+  margin-bottom: 10vh;
+}
+
+.img-stat {
+  margin-top: 10px;
+  background-image: url(../../images/Grafica.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.stats iframe {
+  background-color: #000000;
+}
 /*# sourceMappingURL=blog.css.map */
